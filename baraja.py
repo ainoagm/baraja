@@ -5,7 +5,7 @@ palos = ['o','c','e','b']
 numeros = ['A','2','3','4','5','6','7','S','C','R']
 
 
-def creaBaraja():
+def creaBaraja(palos,numero):
     baraja= []
     for palo in palos:
         for numero in numeros:
@@ -27,7 +27,7 @@ def barajar(lista_de_naipes):
         lista_de_naipes[i] = aux
     return lista_de_naipes
     
-print(barajar(creaBaraja()))
+
 
 
 
